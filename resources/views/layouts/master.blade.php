@@ -25,7 +25,7 @@
 		<div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link  active" href="">
+					<a class="nav-link  active" href="{{route('home')}}">
 						<div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 							<i class="fa fa-tachometer-alt" id="iconDashboard"></i>
 						</div>
@@ -58,7 +58,7 @@
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="">
+					<a class="nav-link" href="{{route('register-planner')}}">
 						<div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 							<i class="fa fa-user-plus" id="iconProperty"></i>
 						</div>

@@ -148,8 +148,7 @@
 				</div>
 			</div>
 		</div>
-		 <button class="btn bg-gradient-success mt-3 active"><i class="fa fa-cloud-upload" id="iconBody"></i> Upload File</button>
-		 
+		 <button type= "file" class="btn bg-gradient-success mt-3 active"><i class="fa fa-cloud-upload" id="iconBody"></i> Upload File</button>
 		<footer class="footer pt-3"></footer>
 	</div>
 	</main>
