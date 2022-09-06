@@ -1,0 +1,47 @@
+#iconProperty {
+    color: black;
+    font-size: 1em;
+}
+
+#iconDashboard {
+    color: white;
+    font-size: 1em;
+}
+
+.dash {
+    color: #0892D0;
+}
+
+#iconBody {
+    color: white;
+    font-size: 1.5em;
+    padding-right: .5em;
+}
+
+.forgot {
+
+    font-weight: 700;
+
+}
+
+#prof {
+    font-size: 2.5em;
+    color: rgb(103, 103, 103);
+}
+
+#prof-n {
+    font-size: 1.5em;
+    color: rgb(169, 168, 168);
+}
+
+.accnt {
+    text-align: center;
+}
+
+.out {
+    color: white;
+}
+
+#text-in {
+    color: black;
+}
