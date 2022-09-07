@@ -10,7 +10,7 @@
 	<link href="/assets/css/icon.css" rel="stylesheet" />
 	<link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
 	<!-- CSS only -->
-	
+
     <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
 	<!-- Font Awesome Icons -->
 	<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
@@ -33,11 +33,11 @@
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="">
+					<a class="nav-link" href="{{route('upload-file')}}">
 						<div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 							<i class="fa fa-folder" id="iconProperty"></i>
 						</div>
-						<span class="nav-link-text ms-1">Shared Files</span>
+						<span class="nav-link-text ms-1">Upload Files</span>
 					</a>
 				</li>
 				<li class="nav-item">
@@ -94,7 +94,7 @@
 					</a>
 				</li>
 			</ul>
-		</div>		
+		</div>
 	</aside>
 	<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
 					<!-- Navbar -->
@@ -163,7 +163,7 @@
 	<script src="https://unpkg.com/emodal@1.2.69/dist/eModal.min.js" />
 	<!-- Github buttons -->
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
-	
+
 	<script src="/assets/js/soft-ui-dashboard.min.js?v=1.0.6"></script>
 
 </body>

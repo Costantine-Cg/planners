@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Planner\PlannerController;
+use App\Http\Controllers\Share\ShareFileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,3 +34,4 @@ Route::prefix('/dashboard')->group(function () {
 
 
   Route::get('/register/planner', [PlannerController::class, 'index'])->name('register-planner');
+  Route::get('/share/file', [ShareFileController::class, 'index'])->name('upload-file');

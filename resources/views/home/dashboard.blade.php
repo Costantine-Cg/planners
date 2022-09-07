@@ -49,7 +49,7 @@
 			<div class="alert alert-success"> {{Session::get('success')}}</div>
 			@endif @if(Session::has ('fail') )
 			<div class="alert alert-danger" id="alerts"> {{Session::get('fail')}}</div>
-			@endif 
+			@endif
 			<h3 class="dash">Dashboard</h3>
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -148,9 +148,11 @@
 				</div>
 			</div>
 		</div>
-		 <button type= "file" class="btn bg-gradient-success mt-3 active"><i class="fa fa-cloud-upload" id="iconBody"></i> Upload File</button>
+		<!-- <form action="" class="mt-3" method="POST" enctype="multipart/form-data">
+			<label for="file" class="label-file"><i class="fa fa-cloud-upload mt-3 mx-3" id="iconBody">  Upload a file</label>
+			<input type="file" class="form-control-file" id="file" name="file">
+		</form> -->
 		<footer class="footer pt-3"></footer>
 	</div>
 	</main>
-
 @endsection
