@@ -6,7 +6,7 @@
 </div>
 <div class="card mt-5 px-3 py-3 mx-5 my-5">
      <div class="card-body">
-        <form method="post" action="">
+        <form method="post" action="{{route('file-upload')}}">
             @csrf
             @if(Session::has ('success') )
             <div class="alert alert-success"> {{Session::get('success')}}</div>
@@ -14,19 +14,19 @@
             <div class="alert alert-danger" id="alerts"> {{Session::get('fail')}}</div>
             @endif
             <div class="mb-3">
-                <input type="text" class="form-control" name="firstname" hidden>
+                <input type="text" class="form-control" name="firstname"  hidden  value="{{($data->first_name)}}">
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control"  name="lastname" hidden>
+                <input type="text" class="form-control"  name="lastname" hidden  value="{{$data->last_name}}">
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="nida" hidden>
+                <input type="text" class="form-control" name="nida" hidden  value="{{$data->nida}}">
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control" name="email" hidden>
+                <input type="email" class="form-control" name="email" hidden  value="{{$data->email}}">
             </div>
             <div class="mb-3">
-                <input type="phone" class="form-control" name="phone" hidden>
+                <input type="phone" class="form-control" name="phone" hidden  value="{{$data->phone}}">
             </div>
             <label>Choose file</label>
             <div class="mb-3">

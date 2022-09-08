@@ -35,3 +35,4 @@ Route::prefix('/dashboard')->group(function () {
 
   Route::get('/register/planner', [PlannerController::class, 'index'])->name('register-planner');
   Route::get('/share/file', [ShareFileController::class, 'index'])->name('upload-file');
+  Route::post('/file/upload', [ShareFileController::class, 'upload'])->name('file-upload');
