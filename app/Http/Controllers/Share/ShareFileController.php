@@ -37,16 +37,5 @@ class ShareFileController extends Controller
         $upload->nida = $request->nida;
         $upload->email = $request->email;
         $upload->phone = $request->phone;
-        $upload->description = $request->descriptions;
-        $upload->file = $request->file;
-        $file=$request->file;
-        $request->file->move('/files',$file);
-        $result = $upload->save();
-
-        if ($result) {
-            return back()->with('success', 'File uploaded successfully');
-        } else {
-            return back()->with('fail', ' Something is Wrong');
-        }
     }
 }
